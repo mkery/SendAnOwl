@@ -1,0 +1,176 @@
+
+html {
+  height: 100%;
+  box-sizing: border-box;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+body{
+  position: relative;
+  margin: 0px;
+  font-family: "Open Sans", sans-serif;
+  background: url('./images/stormy-tokyo-mountains.jpg') no-repeat;
+  min-height: 100%;
+  padding-bottom: 6rem;
+}
+
+#container{
+  margin: auto;
+  text-align: center;
+  width: 80%;
+}
+
+em{
+  font-style: normal;
+  color: cadetblue;
+}
+
+h1{
+  font-family: Satisfy, serif;
+  text-align: left;
+  font-size: 48pt;
+  display: inline-block;
+  margin-bottom: 0px;
+  margin-top: 5px;
+  color: black;
+}
+
+h3{
+  font-family: Satisfy, serif;
+  margin-top: 0px;
+  font-size: 12pt;
+  color: white;
+}
+
+h4{
+  font-family: Satisfy, serif;
+  text-align: left;
+  font-size: 16pt;
+  display: inline-block;
+  margin-bottom: 0px;
+  margin-top: 2px;
+  color: #404040;
+}
+
+#owlIcon{
+  height: 60pt;
+  width: auto;
+  display: block;
+  margin: auto;
+  margin-top: 20px;
+}
+
+#owlIconMini{
+  height: 25pt;
+  width: auto;
+  display: inline-block;
+  float: left;
+  margin-right: 15px;
+}
+
+.header{
+  display: inline-block;
+  margin-top: 20px;
+}
+
+.friendPic{
+  width: 25%;
+  max-width: 10em;
+  height: auto;
+  padding: 20px;
+}
+
+.owlReminder{
+  background-color: rgba(255,255,255,0.7);
+  padding: 10px;
+  display: block;
+  color: #125c5f;
+  border: 2px solid white;
+  margin: auto;
+}
+.owlReminder:hover{
+  background-color: aliceblue;
+}
+
+.userBar{
+  background-color: white;
+  padding: 10px;
+  width: 100%;
+  display: block;
+  margin-bottom: 10px;
+  display: inline-block;
+}
+.userAccountButton{
+  padding: 5px;
+  border: 1px solid #e0e0e0;
+  color: #808080;
+  font-size: 11pt;
+  display: inline-block;
+  float: right;
+  margin-right: 10px;
+  cursor: default;
+}
+.userAccountButton:hover{
+  background-color: aliceblue;
+}
+.userGreeting{
+  color: #808080;
+  font-size: 11pt;
+  display: inline-block;
+  padding: 5px;
+  float: right;
+  margin-right: 10px;
+}
+
+.infoFooter{
+  background-color: white;
+  padding: 15px;
+  width: 100%;
+  display: inline-block;
+  color: #808080;
+  font-size: 9pt;
+  margin-top: 20px;
+  position: absolute;
+  left: 0px;
+  bottom: 0px;
+}
+
+.friendName{
+  font-family: Satisfy, serif;
+  font-size: 3em;
+}
+.friendQuote{
+  font-size: 10pt;
+  font-style: italic;
+  color: #808080;
+  background-color: rgba(255,255,255,0.7);
+  padding: 5px;
+  margin: 5px;
+}
+.friendBirthday{
+  font-size: 10pt;
+  font-style: italic;
+  background-color: rgba(255, 192, 203, .58);
+  padding: 5px;
+  margin: 5px;
+}
+
+.owls{
+  background-color: rgba(255,255,255,0.9);
+  padding: 20px;
+  text-align: left;
+}
+
+.mediaTag{
+  background-color: #202020;
+  color: aliceblue;
+  border: 2px solid #404040;
+  border-radius: 2px;
+  padding: 5px;
+  margin: 5px;
+}
