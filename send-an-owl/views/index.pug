@@ -1,5 +1,12 @@
 extends layout
 
 block content
-  h1= title
-  p Welcome to #{title}
+  img#owlIcon(src="/images/owl_2.png")
+  h1 Send an Owl
+  h3 . friends far away and far apart but never forgotten .
+  hr
+  .owlReminder Your next owl is to Ron this Sunday at 2pm GMT.
+  each friend in friend_list
+    .friendHome
+      img.friendPic(src='/images/' + friend.first_name + '.png')
+      a(href=friend.url) #{friend.first_name} #{friend.family_name}

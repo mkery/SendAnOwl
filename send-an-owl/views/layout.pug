@@ -1,7 +1,22 @@
 doctype html
 html
-  head
-    title= title
-    link(rel='stylesheet', href='/stylesheets/style.css')
-  body
-    block content
+	head
+		meta(charset="UTF-8")
+		title Send an Owl
+		// The following line loads in your CSS style sheet
+		link(href="https://fonts.googleapis.com/css?family=Open+Sans|Satisfy", rel="stylesheet")
+		link(rel="stylesheet", href="/stylesheets/style.css")
+	body
+		.userBar
+			img#owlIconMini(src="/images/owl_2.png")
+			h4 Send an Owl
+			.userAccountButton
+				em Sign out
+			.userAccountButton
+				em Owls
+			.userGreeting Hi there, Harry!
+		#container
+			block content
+		.infoFooter
+			span
+				| *Send an Owl is educational tutorial material for a web prototyping course. Character images are from Harry Potter Puppet Pals by 	Neil Cicierega, Emmy Cicierega, and Alora Lanzillotta, based on the novel series by the esteemed JK Rowling.
